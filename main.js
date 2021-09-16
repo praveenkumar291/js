@@ -94,8 +94,8 @@ const todos = [
     isComplete: true,
   },
 ];
-const todosJSON = JSON.stringify(todos);
-console.log(todosJSON);
+// const todosJSON = JSON.stringify(todos);
+// console.log(todosJSON);
 
 
 
@@ -131,7 +131,7 @@ console.log(todosJSON);
 //   console.log(todo.id)
 // })
 //map
-const todoText = todos.map(function (todo) {
-  return todo.text;
+const p = todos.filter(function (todo) {
+  return todo.isComplete === true;
 });
-console.log(todoText);
+console.log(p);
