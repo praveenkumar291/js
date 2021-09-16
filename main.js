@@ -131,7 +131,7 @@ const todos = [
 //   console.log(todo.id)
 // })
 //map
-const p = todos.filter((todo)=>  {
+const p = todos.map((todo)=>  {
   return todo.isComplete === true;
 });
 console.log(p);
