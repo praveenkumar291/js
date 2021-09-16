@@ -146,5 +146,5 @@
 // }
 
 // else {
-//   console.log('x is Not 10');
+//   console.log('x is Not 112');
 // }
