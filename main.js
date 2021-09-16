@@ -125,8 +125,13 @@ console.log(todosJSON);
 //
 //foreach
 
-todos.forEach(function (todo) {
+// todos.forEach(function (todo) {
 
-  console.log(todo.text)
-  console.log(todo.id)
-})
+//   console.log(todo.text)
+//   console.log(todo.id)
+// })
+//map
+const todoText = todos.map(function (todo) {
+  return todo.text;
+});
+console.log(todoText);
