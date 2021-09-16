@@ -132,6 +132,6 @@ const todos = [
 // })
 //map
 const p = todos.map((todo)=>  {
-  return todo.isComplete === true;
+  return todo=( todos) ;
 });
-console.log(p);
+console.error(p);
