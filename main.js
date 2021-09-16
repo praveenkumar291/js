@@ -77,23 +77,23 @@
 
 
 
-const todos = [
-  {
-    id: 1,
-    text: 'take to trash',
-    isComplete: true,
-  },
-  {
-    id: 2,
-    text: 'meeting with boos',
-    isComplete: true,
-  },
-  {
-    id: 1,
-    text: 'meet with friend',
-    isComplete: true,
-  },
-];
+// const todos = [
+//   {
+//     id: 1,
+//     text: 'take to trash',
+//     isComplete: true,
+//   },
+//   {
+//     id: 2,
+//     text: 'meeting with boos',
+//     isComplete: true,
+//   },
+//   {
+//     id: 1,
+//     text: 'meet with friend',
+//     isComplete: true,
+//   },
+// ];
 // const todosJSON = JSON.stringify(todos);
 // console.log(todosJSON);
 
@@ -131,7 +131,14 @@ const todos = [
 //   console.log(todo.id)
 // })
 //map
-const p = todos.map((todo)=>  {
-  return todo=( todos) ;
-});
-console.error(p);
+// const p = todos.map((todo)=>  {
+//   return todo=( todos) ;
+// });
+// console.warn(p);
+
+//if statement
+
+const x = 10;
+if (x === 10) {
+  console.log('praveen')
+}
