@@ -155,8 +155,8 @@
 //   console.log('praveen');
 // }
 
-const x = 10;
-const color = x > 10 ? 'pink' : 'yellow';
+const x = 11;
+const color = 'praveen'
 switch (color) {
 
   case 'pink':
