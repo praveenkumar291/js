@@ -155,22 +155,52 @@
 //   console.log('praveen');
 // }
 
-const x = 11;
-const color = 'praveen'
-switch (color) {
+// const x = 11;
+// const color = 'praveen'
+// switch (color) {
 
-  case 'pink':
-    console.log('color is red');
-    break;
-  case 'yellow':
-    console.log('color is yellow');
-    break;
-  default:
-    console.log('color is Not red or yellow');
-    break;
-
-
+//   case 'pink':
+//     console.log('color is red');
+//     break;
+//   case 'yellow':
+//     console.log('color is yellow');
+//     break;
+//   default:
+//     console.log('color is Not red or yellow');
+//     break;
 
 
+
+
+
+// }
+
+
+function addNums(num1, num2) {
+  return num1 + num2;
 
 }
+console.log(addNums(5, 5));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
