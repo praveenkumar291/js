@@ -176,8 +176,29 @@
 // }
 
 
-const addNums=(num1, num2)=> {
-  return num1 + num2;
+// const addNums =(num1, num2)=> {
+//   return num1 + num2;
 
+// }
+// console.log(addNums(5, 5));
+
+
+
+
+
+//constructor function
+
+
+
+function Person (firstName, lastName,dob) {
+
+  this.firstName = firstName;
+  this.lastName = lastName;
+  this.dob = dob;
 }
-console.log(addNums(5, 5));
+//instant object
+
+const person1 = new Person('praveen', 'kumar', '22-08-1998');
+const person2 = new Person('varun', 'kumar', '30-08-1998');
+
+console.log(person1);
