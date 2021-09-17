@@ -149,8 +149,12 @@
 //   console.log('x is Not 112');
 // }
 
-const x = 4;
-const y = 11;
-if (x > 2 && y > 10) {
-  console.log('praveen');
-}
+// const x = 4;
+// const y = 11;
+// if (x > 2 && y > 10) {
+//   console.log('praveen');
+// }
+
+const x = 10;
+const color = x > 9 ? 'pink' : 'yellow';
+console.log(color);
