@@ -190,15 +190,39 @@
 
 
 
-function Person(firstName, lastName, dob) {
+// function Person(firstName, lastName, dob) {
 
-  this.firstName = firstName;
-  this.lastName = lastName;
-  this.dob =new Date(dob);
+//   this.firstName = firstName;
+//   this.lastName = lastName;
+//   this.dob =new Date(dob);
+// }
+// //instant object
+
+// const person1 = new Person('praveen', 'kumar', '12-30-1980');
+// const person2 = new Person('varun', 'kumar', '3-27-1998');
+
+// console.log(person1.dob.getFullYear());
+
+
+class Person {
+  constructor (firstName, lastName, dob) {
+
+     this.firstName = firstName;
+   this.lastName = lastName;
+   this.dob =new Date(dob);
+
+  }
+  getBirthYear() {
+    return this.dob.getFullYear();
+  }
+  getFullName() {
+    return `${this.firstName} ${this.lastName}`;
+
+  }
+
 }
-//instant object
-
 const person1 = new Person('praveen', 'kumar', '12-30-1980');
 const person2 = new Person('varun', 'kumar', '3-27-1998');
 
-console.log(person1.dob.getFullYear());
+console.log(person1.getBirthYear());
+console.log(person1.getFullName());
