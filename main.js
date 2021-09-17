@@ -156,5 +156,5 @@
 // }
 
 const x = 10;
-const color = x > 9 ? 'pink' : 'yellow';
+const color = x > 8 ? 'pink' : 'yellow';
 console.log(color);
