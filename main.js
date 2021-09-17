@@ -156,5 +156,21 @@
 // }
 
 const x = 10;
-const color = x > 8 ? 'pink' : 'yellow';
-console.log(color);
+const color = x > 10 ? 'pink' : 'yellow';
+switch (color) {
+
+  case 'pink':
+    console.log('color is red');
+    break;
+  case 'yellow':
+    console.log('color is yellow');
+    break;
+  default:
+    console.log('color is Not red or yellow');
+    break;
+
+
+
+
+
+}
