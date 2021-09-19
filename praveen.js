@@ -26,9 +26,14 @@ const kill= [33, 21, 23,]
 
 //filter
 
-const praveen = kill.filter((ages) => {
-  if (ages > 21) {
-    return true;
-  }
-});
-console.log (praveen);
+// const praveen = kill.filter((ages) => {
+//   if (ages > 21) {
+//     return true;
+//   }
+// });
+// console.log(praveen);
+
+
+//short way to
+const praveen = kill.filter(age => age >= 21);
+ console.log(praveen);
