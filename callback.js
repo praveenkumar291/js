@@ -1,3 +1,5 @@
+
+//callback:
 const posts = [{
   title: 'post one', body: 'this is a post one'
 },
@@ -23,3 +25,4 @@ function createPost(post, callback) {
   }, 2000);
 }
 createPost({title: 'post three', body: 'this is a post three'},getposts)
+
