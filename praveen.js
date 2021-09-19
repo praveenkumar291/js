@@ -14,10 +14,21 @@ const company = [{
 },
 ];
 
-const age = [33, 12, 20,]
+const kill= [33, 21, 23,]
 
 
-company.forEach((company) => {
-  console.log(company);
+// company.forEach((company) => {
+//   console.log(company);
 
-})
+// })
+
+
+
+//filter
+
+const praveen = kill.filter((ages) => {
+  if (ages > 21) {
+    return true;
+  }
+});
+console.log (praveen);
