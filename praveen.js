@@ -49,5 +49,9 @@ const production = [{
 // });
 // console.log(retailCompanies);
 
-const praveen =production.filter(company => company.category === 'chips industry');
-console.log(praveen);
+// const praveen =production.filter(company => company.category === 'chips industry');
+// console.log(praveen);
+
+
+const eights = production.filter(company => (company.start >= 1980 && company.start < 1990));
+ console.log(eights);
