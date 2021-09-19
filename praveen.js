@@ -14,7 +14,8 @@ const production = [{
 },
 ];
 
-// const kill= [33, 21, 23,]
+// const kill= ['hello','bar','world',]
+const kill = [2,3,5,6,677,]
 
 
 // company.forEach((company) => {
@@ -53,5 +54,46 @@ const production = [{
 // console.log(praveen);
 
 
-const eights = production.filter(company => (company.start >= 1980 && company.start < 1990));
- console.log(eights);
+// const eights = production.filter(company => (company.start >= 1980 && company.start < 1990));
+// console.log(eights);
+
+
+//map
+//create array of company names to company
+
+// const praveen = production.map(function (company) {
+//   return company;
+// });
+// console.log(praveen);
+
+// const todos = production.map((company) => `${company.name} [${company.start} - ${company.end}]`);
+
+
+// console.log(todos);
+
+// const todos = production.map((company) => {
+//   return company = (production);x
+// });
+// console.log(todos);
+
+// const todos = kill.map((company) => {
+//   return company ;
+// });
+// console.log(todos);
+
+
+//sort
+
+// const todos = production.sort((a, b) => (a.start > b.start ? 1 : -1));
+// console.log(todos);
+//tolocale compare
+
+//sort ages
+// const todos = kill.sort((a, b) => a.localeCompare(b));
+// console.log(kill);
+
+// sort of numbers
+const todos = kill.sort((a, b) => a - b);// reverse oreder : b-a
+
+console.log(todos);
+// console.log('praveen');
